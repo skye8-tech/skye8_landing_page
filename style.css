@@ -1,0 +1,221 @@
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .col-4 {
+      width: 50%;
+    }
+    .main img .picture{
+        max-width: 100%;
+        bottom: 50%;
+        margin: 50px;
+    }
+    .footerpic .info img{
+       
+        height: 100%;
+    }
+   .footerpic .info{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .ellipse{
+        
+        height: auto;
+    }
+    
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .col-4 {
+      width: 100%;
+    }
+    .main img{
+        max-width: 100%;
+        bottom: 50%;
+       
+    }
+    .footerpic .info img{
+       
+        height: 100%;
+    }
+   .footerpic .info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+        
+  }
+  /* @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    } */
+body{
+    
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+section{
+    margin: 20px;
+    padding: 20px;
+}
+a{
+
+    text-decoration: none;
+    list-style: none;
+}
+strong{
+    color: #000852;
+}
+.section-1{
+    height:100%;
+}
+.main img{
+    position: relative;
+    bottom: 50%;
+    margin: 20%;
+    margin-bottom: 50px;
+   
+}
+.section-1{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 1000px;
+    background-color:#f8f8f8; 
+}
+
+.clip-path{
+    height: 467px;
+    width: 100%;
+    background-color: #000852;
+    clip-path: polygon(0 0, 100% 0,100% 50%, 0 100%);
+} 
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    
+}
+ .nav-item{
+    padding: 20px;
+} 
+.nav-item a .nav-link{
+    color: #F1F1F1;
+    font-size:16px ;
+} 
+
+.services{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.box .row .col-4{
+    padding: 20px;
+}
+.service-item p{
+    padding: 20px;
+   line-height: 12px;
+    display: grid;
+    justify-content: center;
+   top: auto;
+    font-size: 16px;
+
+}
+.section-3{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+.col-4{
+   line-height: 20px;
+}
+
+
+.image-fluid{
+    width: 40px;
+    height: 40px;
+   
+}
+.col-4 .img{
+    object-position: top;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .col-4 {
+      width: 50%;
+     
+    }
+    
+    
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .col-4 {
+      width: 100%;
+     
+    }
+  }
+.card-body{
+    margin: 20px;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #F1F1F1;
+    border-radius: 20px;
+    
+}
+#carouselExample{
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+
+.section-6{
+    margin: 0;
+    padding: 0;
+}
+.footerpic{
+    background-image: url(/images/Rectangle.png);
+    
+    width: 100%;
+    filter: brightness(40%);
+}
+.info{
+    color: #F1F1F1;
+}
+.reserved{
+    background-color: #000852;
+    width: 100%;
+    color: #F1F1F1;
+    height: 50px;
+    padding: 10px;
+}
+.location span{
+    color: #F1F1F1;
+    padding: 20px;
+}
+.row .location a{
+    padding: 40px;
+    font-size: large;
+    color: #F1F1F1;
+    line-height: 6vh;
+}
+.media a{
+   padding: 20px; 
+   text-decoration: none;
+   color: white;
+}
+.blog a{
+    color: #F1F1F1;
+    line-height: 6vh;
+    
+    
+}
